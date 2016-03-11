@@ -1,0 +1,130 @@
+header .navbar-default {
+  padding-bottom: 1%; }
+
+.navbar-brand img {
+  width: 50%; }
+
+.strategy {
+  background: url("../images/bg.jpg") no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .strategy .opa {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 500px; }
+
+.box {
+  color: white;
+  padding-right: 55%;
+  padding-top: 12%;
+  padding-left: 5%; }
+  .box h1 {
+    font-weight: 200; }
+  .box p {
+    font-weight: 200;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+
+.botones {
+  padding-left: 5%; }
+  .botones button {
+    background-color: #3CB1F7;
+    border-radius: 28px;
+    padding: 12px 20px; }
+    .botones button:hover {
+      background-color: transparent;
+      border: 2px solid #3CB1F7; }
+  .botones a {
+    color: white;
+    font-weight: 200;
+    text-decoration: none; }
+
+.caja {
+  padding-left: 5%; }
+  .caja p {
+    color: white;
+    font-weight: 200;
+    margin-top: 4%;
+    font-size: 14px; }
+  .caja span {
+    word-spacing: 10px; }
+
+.optimizacion {
+  border: 2px solid #E4E4E4;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .optimizacion .cel img {
+    background: url(../images/2.jpg);
+    width: 100%; }
+  .optimizacion p.titulo-uno {
+    color: #BEBEBC;
+    font-size: 30px;
+    font-weight: 200;
+    padding-right: 10%; }
+  .optimizacion p {
+    color: gray;
+    padding-right: 14%; }
+  .optimizacion span.blue {
+    color: #3CB1F7;
+    font-weight: 800; }
+  .optimizacion button {
+    background-color: transparent;
+    border-radius: 28px;
+    padding: 12px 20px;
+    border: 2px solid #3CB1F7; }
+  .optimizacion a {
+    color: #3CB1F7;
+    font-weight: 200;
+    text-decoration: none; }
+
+section.recreated {
+  background-color: #F6F6F6;
+  padding-top: 6%; }
+  section.recreated .box-dos {
+    padding: 0% 10% 10% 10%; }
+  section.recreated p.titulo-dos {
+    color: gray;
+    font-size: 25px;
+    font-weight: 200; }
+  section.recreated p.texto {
+    margin-bottom: 5%; }
+  section.recreated .ideas {
+    margin-bottom: 20%; }
+  section.recreated .titular {
+    font-size: 16px;
+    font-weight: 800; }
+  section.recreated .parrafo {
+    font-size: 12px;
+    line-height: 2;
+    padding-right: 15%; }
+  section.recreated p, section.recreated h1 {
+    color: #838280; }
+  section.recreated img {
+    max-width: 90%;
+    padding-top: 8%; }
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 1.3rem; }
+  footer .rs-boton {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 2px solid #3BB0F5;
+    border-radius: 100%;
+    margin: 10px 5px; }
+    footer .rs-boton i {
+      font-size: 18px;
+      color: #3BB0F5;
+      margin: 10px; }
+  footer a {
+    color: #3CB1F7;
+    font-weight: 200;
+    text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */

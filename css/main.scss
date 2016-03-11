@@ -1,0 +1,195 @@
+$text-white: white;
+
+header{
+	.navbar-default{
+		padding-bottom:1%;
+	}
+}
+
+.navbar-brand {
+
+	img{
+		width: 50%;
+	}
+}
+
+.strategy{
+	background: url("../images/bg.jpg") no-repeat; 
+	width:100%;
+	height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    	.opa{
+			background-color: rgba(0,0,0,0.4);
+			height: 500px;
+	}
+}
+
+.box { 
+	color:$text-white;
+	padding-right:55%;
+	padding-top:12%;
+	padding-left:5%;
+
+		h1{
+			font-weight: 200;	
+		}
+
+		p{
+			font-weight: 200;
+			margin-top: 5%;
+			margin-bottom: 5%;
+		}
+}
+
+.botones{
+	padding-left:5%;
+
+	button{
+		background-color:#3CB1F7;
+		border-radius: 28px;
+		padding:12px 20px;
+	
+		&:hover{
+			background-color:transparent;
+			border:2px solid #3CB1F7;
+		}
+	}
+
+
+		 a{
+			color:$text-white;
+			font-weight: 200;
+			text-decoration: none;
+		 	
+		 	}
+}
+
+.caja{
+	padding-left:5%;
+
+		p{
+		 	color:$text-white;
+		 	font-weight: 200;
+		 	margin-top: 4%;
+		 	font-size: 14px;
+		 }
+		 
+		 span{
+		 	word-spacing: 10px;
+		 }
+}
+
+.optimizacion{
+	border: 2px solid #E4E4E4;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+	.cel img{
+		background: url(../images/2.jpg);
+		width: 100%;
+	}
+
+	p.titulo-uno{
+		color:#BEBEBC;
+		font-size: 30px;
+		font-weight: 200;
+		padding-right:10%;
+	}
+
+	p{
+		color:gray;
+		padding-right:14%;
+	}
+
+	span.blue{
+		color:#3CB1F7;
+		font-weight: 800;
+	}
+		button{
+		background-color:transparent;
+		border-radius: 28px;
+		padding:12px 20px;
+		border: 2px solid #3CB1F7;
+	}
+
+		 a{
+			color:#3CB1F7;
+			font-weight: 200;
+			text-decoration: none;
+		 	}
+}
+
+section.recreated{
+	background-color: #F6F6F6;
+	padding-top: 6%;
+
+	.box-dos{
+		padding:0% 10% 10% 10%;
+	}
+		
+		p.titulo-dos{
+			color:gray;
+			font-size: 25px;
+			font-weight: 200;
+		}
+
+		p.texto{
+			margin-bottom: 5%;
+		}
+
+		.ideas{
+		margin-bottom: 20%;
+		}
+
+		.titular{
+		font-size: 16px;
+		font-weight: 800;
+		}
+
+		.parrafo{
+		font-size: 12px;
+		line-height: 2;
+		padding-right: 15%;
+		}
+
+		p, h1{
+		color: #838280;
+		}
+
+		img{
+		max-width: 90%;
+		padding-top: 8%;
+		}
+}
+
+footer{
+	text-align: center;
+	padding: 30px;
+	font-size: 1.3rem;
+
+	.rs-boton{
+	    width: 40px;
+	    height: 40px;
+	    display: inline-block;
+	    border: 2px solid #3BB0F5;
+	    border-radius: 100%;
+	    margin: 10px 5px;
+
+	    i {
+	      font-size: 18px;
+	      color: #3BB0F5;
+	      margin: 10px;
+   	 	}
+
+	}
+		a{
+			color:#3CB1F7;
+			font-weight: 200;
+			text-decoration: none;
+
+		 }
+}
